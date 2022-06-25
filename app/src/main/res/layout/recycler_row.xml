@@ -10,8 +10,8 @@
         android:text="@string/test"
         android:fontFamily="sans-serif-condensed"
         android:layout_margin="5dp"
-        android:textSize="34sp"
+        android:textSize="24sp"
         android:textAlignment="center"
-        android:textColor="@color/black"/>
+        android:textColor="#FF0000"/>
 
 </LinearLayout>

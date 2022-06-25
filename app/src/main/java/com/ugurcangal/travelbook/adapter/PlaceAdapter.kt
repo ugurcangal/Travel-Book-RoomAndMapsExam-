@@ -8,7 +8,7 @@ import com.ugurcangal.travelbook.databinding.RecyclerRowBinding
 import com.ugurcangal.travelbook.model.Place
 import com.ugurcangal.travelbook.view.MapsActivity
 
-class PlaceAdapter(val placeList: List<Place>) : RecyclerView.Adapter<PlaceAdapter.PlaceHolder>() {
+class PlaceAdapter(private val placeList: List<Place>) : RecyclerView.Adapter<PlaceAdapter.PlaceHolder>() {
     class PlaceHolder(val recyclerRowBinding: RecyclerRowBinding) : RecyclerView.ViewHolder(recyclerRowBinding.root) {
 
     }
